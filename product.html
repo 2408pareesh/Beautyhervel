@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Herbal</title>
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/marquee.css">
+  <link rel="stylesheet" href="css/appear_section.css">
+  <link rel="stylesheet" href="css/button_dimmer.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="2345 .png">
+</head>
+
+<body>
+
+
+  <!-- Top Contact Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <span style="font-family:'Mulish', sans-serif;"><i class="fas fa-map-marker-alt"></i> New Town Western King
+        Street, 5th Avenue, New York</span>
+      <span style="font-family:'Mulish', sans-serif;"><i class="fas fa-phone"></i> 1800-2355-2356</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <img src="img/main.png" width="250px">
+    </div>
+
+    <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./index.html" onclick="sessionStorage.setItem('preloaderShown', 'true')">Home</a></li>
+      <li><a href="./product.html" class="active">Products</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.php">Contact</a></li>
+      <div class="slide-buttons2">
+              <a href="buynow.php" class="btn">BUY NOW <i class="fa-solid fa-cart-shopping"></i></a>
+              </a>
+        </div>
+    </ul>
+  </header>
+
+    <!-- NAV LOADER BAR -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="breadcrumb">
+        <a href="#">Home</a>
+        <span>/</span>
+        <a href="#" style="color:#b49d41;">Products</a>
+      </div>
+      <h1>Prod<span class="custom2">ucts</span></h1>
+    </section>
+
+    <!-- Products Section -->
+<section id="products" class="products">
+  <div class="products-container">
+    <div class="section-title">
+      <h2>Featured <span class="custom2">Popular Brands</span></h2>
+    </div>
+
+    <!-- Carousel Container -->
+    <div class="carousel">
+      <button class="carousel-control prev">&#10094;</button>
+
+      <div class="carousel-track-container">
+        <div class="carousel-track">
+          <!-- Your same cards -->
+          <div class="products-card">
+            <div class="products-image"><img src="img/product1.png"></div>
+            <div class="products-info">
+              <h3>Herbal Hair Oil [small]</h3>
+              <p>Premium herbal blend cream for relaxation and wellness.</p>
+              <div class="products-price">Rs. 1,500</div>
+              <a href="buynow.php?product=small-oil#contact-content"><button class="add-to-cart">Book Now</button></a>
+            </div>
+          </div>
+
+          <div class="products-card">
+            <div class="products-image"><img src="img/product2.png"></div>
+            <div class="products-info">
+              <h3>Herbal Hair Oil [large]</h3>
+              <p>Herbal blend oil from hairfall condition and stress relief.</p>
+              <div class="products-price">Rs. 2,300</div>
+              <a href="buynow.php?product=large-oil#contact-content"><button class="add-to-cart">Book Now</button></a>
+            </div>
+          </div>
+
+          <div class="products-card">
+            <div class="products-image"><img src="img/product3.jpg"></div>
+            <div class="products-info">
+              <h3>Daily Herbal Powder</h3>
+              <p>Herbal Powder for skin protection and rejuvenation</p>
+              <div class="products-price">Rs. 1,250</div>
+              <a href="buynow.php?product=daily-powder#contact-content"><button class="add-to-cart">Book Now</button></a>
+            </div>
+          </div>
+
+          <div class="products-card">
+            <div class="products-image"><img src="img/product4.png"></div>
+            <div class="products-info">
+              <h3>Weekly Herbal Powder</h3>
+              <p>Herbal Powder for skin protection and rejuvenation</p>
+              <div class="products-price">Rs. 1,380</div>
+              <a href="buynow.php?product=weekly-powder#contact-content"><button class="add-to-cart">Book Now</button></a>
+            </div>
+          </div>
+
+          <div class="products-card">
+            <div class="products-image"><img src="img/product1.png"></div>
+            <div class="products-info">
+              <h3>Herbal Hair Oil [small]</h3>
+              <p>Premium herbal blend cream for relaxation and wellness.</p>
+              <div class="products-price">Rs. 1,500</div>
+              <a href="buynow.php?product=small-oil#contact-content"><button class="add-to-cart">Book Now</button></a>
+            </div>
+          </div>
+
+          <div class="products-card">
+            <div class="products-image"><img src="img/product2.png"></div>
+            <div class="products-info">
+              <h3>Herbal Hair Oil [large]</h3>
+              <p>Herbal blend oil from hairfall condition and stress relief.</p>
+              <div class="products-price">Rs. 2,300</div>
+              <a href="buynow.php?product=large-oil#contact-content"><button class="add-to-cart">Book Now</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+            <!-- Email Subscription -->
+         <div class="section-bg1"></div>
+                    <div class="space-extra-top">
+                        <div id="contactUs" class="email-subscription">
+                            <img src="img/order_footer1.png" alt="Email Header Image"
+                                class="email-subscription__image" width="100%">
+                            <div class="row justify-content-center">
+                                    <img src="2345 .png" style="margin-top:-43px; width:40px;">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h2 class="email-subscription__title text-center" style="margin-top: 15px;">Embrace the freedom of natural beauty!
+                                        <span class="vs-primary">Herbal Beauty, we believe true wellness begins with nature’s</span> </br>
+                                        touch.
+                                    </h2>
+                                    <div class="footer-social footer-social-footer mb-40 wow animate__fadeInUp"
+                                        data-wow-delay="0.35s" style="margin-left: 83px;">
+                                        <a href="https://www.facebook.com/profile.php?v.k.pareeshan"><img width="49" height="49" src="https://img.icons8.com/lollipop/49/facebook-new.png" alt="facebook-new"/></a>
+                                        <a href="https://www.tiktok.com/@mhdsalim618"><img width="49" height="49" src="https://img.icons8.com/color-glass/49/tiktok.png" alt="tiktok"/></a>
+                                        <a href="https://www.instagram.com/mhdsalim618/"><img width="49" height="49" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/></a>
+                                        <a href="https://whatsapp.com/channel/0029VbB6UK8002TDfRHPVl2n"><img width="49" height="49" src="https://img.icons8.com/3d-fluency/94/whatsapp.png" alt="whatsapp"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Email Subscription End -->
+
+        <!-- Footer Start -->
+        <footer class="vs-footer ">
+
+            <div class="vs-footer__copyright">
+                <div class="container wow animate__fadeInUp" data-wow-delay="1.1s">
+                    Copyright © 2025 Beauty Herbal. Developed at WEBbuilders
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+  <!-- Footer -->
+  <div class="footer-container">
+    <div class="footer-content">
+      <!-- Brand Information Section -->
+      <div class="footer-section brand-info">
+        <img src="img/main.png" width="250px" height="75px" class="footer-logo">
+        <p>Embrace the freedom of natural beauty. At Herbal Beauty, we believe true wellness begins with nature’s touch.
+          Our carefully crafted herbal products are designed to nourish, restore, and uplift to help you glow with
+          confidence inside and out.</p>
+        <div class="footer-social-icons">
+            <a href="#"><img width="35" height="35" src="https://img.icons8.com/fluency/35/facebook-new.png" alt="facebook-new"/></a>
+            <a href="#"><img width="35" height="35" src="https://img.icons8.com/fluency/35/instagram-new.png" alt="instagram-new"/></a>
+            <a href="#"><img width="35" height="35" src="https://img.icons8.com/fluency/35/whatsapp.png" alt="whatsapp"/></a>
+            <a href="#"><img width="35" height="35" src="https://img.icons8.com/fluency/35/linkedin.png" alt="linkedin"/></a>
+          </div>
+      </div>
+
+      <!-- Useful Links Section -->
+      <div class="footer-section link-info">
+        <h3 class="footer-heading"><span class="custom1">Useful</span> <span class="custom2">Links</span></h3>
+        <div class="links-columns">
+          <ul class="links-list">
+            <li><a href="./index.html">Home</a></li>
+              <li><a href="./product.html">Products</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.php">Contact</a></li>
+              <li><a href="./buynow.php">Shop</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact Information Section -->
+      <div class="footer-section contact-info">
+        <h3 class="footer-heading"><span class="custom1">Contact</span> <span class="custom2">Information</span></h3>
+        <p>
+          <i class="fas fa-map-marker-alt"></i>
+          New Town Western King Street,<br>
+          5th Avenue, New York
+        </p>
+        <p>
+          <i class="fas fa-phone"></i>
+          1800-2355-2356
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i>
+          usernames@domain.com
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">Copyright © 2025 <strong>Beauty Herbal</strong>. Developed at WEBbuilders.lk</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- The circular button -->
+  <button class="circle-btn" id="scrollTopBtn"><i class="fa-solid fa-angle-up" style="color: #1a3c2d;"></i></button>
+
+  <script src="js/menu.js"></script>
+  <script src="js/scroller.js"></script>
+  <script src="js/appear_section.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

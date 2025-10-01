@@ -1,0 +1,53 @@
+/* Base design stays the same */
+.slide-buttons .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(to bottom, #6ee786, #228b22); /* light green top, dark green bottom */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* depth */
+  transition: all 0.3s ease; /* smooth animation */
+}
+
+/* Hover effect: push & dim */
+.slide-buttons .btn:hover {
+  transform: translateY(-3px); /* lifts up */
+  filter: brightness(90%);     /* slight dim */
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4); /* deeper shadow */
+}
+
+/* Click (active) effect */
+.slide-buttons .btn:active {
+  background: linear-gradient(to bottom, #145214, #0b370b); /* very dark green */
+  transform: translateY(1px); /* pressed in */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* shallower shadow */
+}
+
+
+.slide-buttons2 .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(to bottom, #6ee786, #228b22); /* light green top, dark green bottom */
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* depth */
+  transition: all 0.3s ease; /* smooth animation */
+}
+
+/* Hover effect: push & dim */
+.slide-buttons2 .btn:hover {
+  transform: translateY(-3px); /* lifts up */
+  filter: brightness(90%);     /* slight dim */
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4); /* deeper shadow */
+}
+
+/* Click (active) effect */
+.slide-buttons2 .btn:active {
+  background: linear-gradient(to bottom, #145214, #0b370b); /* very dark green */
+  transform: translateY(1px); /* pressed in */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* shallower shadow */
+}

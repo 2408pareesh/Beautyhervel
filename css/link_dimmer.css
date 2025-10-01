@@ -1,0 +1,19 @@
+/* Add this to your existing CSS */
+.nav-links a.active {
+    animation: dimming 1s infinite ease-in-out;
+}
+
+@keyframes dimming {
+    0% {
+        opacity: 1;
+        background-color: rgba(26, 60, 45, 0.3);
+    }
+    50% {
+        opacity: 0.2;
+        background-color: rgba(26, 60, 45, 0.6);
+    }
+    100% {
+        opacity: 1;
+        background-color: rgba(26, 60, 45, 0.3);
+    }
+}

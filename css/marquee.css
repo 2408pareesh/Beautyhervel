@@ -1,0 +1,84 @@
+/* Logo Brands Section */
+.logo-brands {
+    background-color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+
+.brands-marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.brands-track {
+    display: flex;
+    width: 200%; /* Double width for seamless looping */
+    animation: scroll 20s linear infinite;
+}
+
+.brands-track img {
+    height: 80px;
+    width: auto;
+    margin: 0 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.brands-track img:hover {
+    opacity: 1;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Move half width to create loop */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .brands-track img {
+        height: 60px;
+        margin: 0 15px;
+    }
+    
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+}
+
+
+/*----------------------- MARQUEE SEQUENCE FOR "PRODUCT SECTION" IN PRODUCT PAGE ------------------------*/
+
+
+/* Marquee setup */
+.marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+  gap: 30px;
+  animation: scroll-left 30s linear infinite;
+}
+
+/* Scroll animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}

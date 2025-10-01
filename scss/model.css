@@ -1,0 +1,98 @@
+/* =========================
+   Modal Customization
+   ========================= */
+.modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    background-color: #4caf50 !important;
+    color: white;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-header h5 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.modal-body {
+    padding: 0;
+    background: #ffffff;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: center;
+    justify-content: center;
+}
+
+/* =========================
+   Popup Content Box
+   ========================= */
+.popup-content {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.popup-content h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.popup-content p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Highlight text like "BeautyHerbal" */
+.popup-content .highlight {
+    color: #FF5722;
+    font-weight: bold;
+}
+
+/* =========================
+   WhatsApp Button
+   ========================= */
+.whatsapp-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+    color: white;
+    text-decoration: none;
+}
+
+/* =========================
+   Close Button Override
+   ========================= */
+.btn-close {
+    filter: invert(1); /* white close icon */
+}

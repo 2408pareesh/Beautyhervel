@@ -1,0 +1,25 @@
+/* Base styles for sections */
+section {
+    padding: 0px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Just for demonstration - you can remove this */
+.demo-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: #132a20;
+    color: white;
+    margin: 10px 0;
+    border-radius: 8px;
+}
